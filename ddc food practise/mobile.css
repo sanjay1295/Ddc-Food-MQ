@@ -1,0 +1,75 @@
+@media only screen and (max-width: 1200px)
+{
+ .grid-image{max-width: 100%;}
+ .hero_content h1{
+    font-size: 40px;
+ }
+ .grid{overflow: hidden;
+max-width: 100%;}
+}
+@media only screen and (max-width: 1000px)
+{ 
+.hero{ flex-direction: column; }
+.hero_content{padding-left: 10px;}
+.hero_images img{max-width: 600px;}
+.grid{overflow: hidden;}
+
+}
+@media only screen and (max-width: 720px)
+{
+.hero{ flex-direction: column; }
+
+.hero_images img{max-width: 400px;}
+
+
+.features{flex-direction: column;}
+
+.grid-image{ max-width: 100%;}
+
+.footer_container{padding: 30px; 
+    flex-direction: column;
+    justify-content: space-between;}
+    
+.footer_logo img{ max-width: 100%;}
+.grid{overflow: hidden;}
+
+}
+
+@media only screen and (max-width: 420px)
+{
+    .hero_images img
+    {
+        max-width: 320px;
+    }
+    .grid-image
+{
+    max-width: 100%;
+}
+.item1 .grid-image
+{
+    max-height: 200px!important;
+}
+.grid{flex-direction: column;}
+.grid{overflow: hidden;}
+}
+
+@media only screen and (max-width: 320px)
+{
+    .hero_images img
+{
+    max-width: 270px;
+}
+.item1 .grid-image
+{
+    max-height: 180px!important;
+}
+.news_letter input
+{
+    padding: 5px 10px;
+}
+.grid-image
+{
+    max-width: 100%;
+}
+.grid{overflow: hidden;}
+}
